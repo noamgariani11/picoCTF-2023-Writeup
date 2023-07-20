@@ -18,19 +18,17 @@ This is the XXE payload that is on the PortSwigger site linked above:
 <stockCheck><productId>&xxe;</productId></stockCheck>
 ```
 
-* Solution
-
 # Setting Up BurpSuite
 
-To implment the injection it is easiest with BurpSuite. BurpSuite is software that is very useful for web peneteration testing.
+To implement the injection it is easiest with BurpSuite. BurpSuite is software that is very useful for web penetration testing.
 
 Steps in BurpSuite:
 
-* Create a Temporary project as soon as BurpSuite opens by just pressing "Next" with the defualt configurations.
+* Create a Temporary project as soon as BurpSuite opens by just pressing "Next" with the default configurations.
 
 ![image](https://user-images.githubusercontent.com/91398631/232889427-3a7e912a-4f38-4273-8bf0-507f8758507b.png)
 
-* Then click "Start Burp" with Burp Defualts.
+* Then click "Start Burp" with Burp Defaults.
 
 ![image](https://user-images.githubusercontent.com/91398631/232889471-ea12a95d-3faf-4613-889a-ac54b5f96c3a.png)
 
@@ -42,7 +40,7 @@ Steps in BurpSuite:
 
 ![image](https://user-images.githubusercontent.com/91398631/232889733-f9593a72-1521-4e55-8f53-85a2ef77b65b.png)
 
-* Once your in the BurpSuite web browser paste the link from the challenge ```http://saturn.picoctf.net:52948/``` 
+* Once you're in the BurpSuite web browser paste the link from the challenge ```http://saturn.picoctf.net:52948/``` 
 
 # Solution
 
